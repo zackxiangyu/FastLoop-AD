@@ -1,0 +1,43 @@
+name: fastloop-ad
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.8
+  - pytorch::pytorch>=1.13.0
+  - pytorch::torchvision>=0.14.0
+  - pytorch::torchaudio>=0.13.0
+  - pytorch::cpuonly
+  - numpy>1.16.0
+  - ray-default>=1.0.0
+  - pandas
+  - tensorboard>=2.5.0
+  - matplotlib
+  - seaborn
+  - scipy
+  - llvm-openmp
+  - pip
+  - pip:
+    - gym==0.23.1
+    - gymnasium==0.29.1
+    - box2d
+    - pygame
+    - pyglet
+    - slxpy
+    - openpyxl
+    - pytest
+    - faster_fifo
+    - pyyaml
+    - setproctitle
+    - patchelf
+    - wandb
+    - opencv-python
+    - ray==2.8.0
+    - pandas==2.0.3
+    - matplotlib
+    - seaborn
+    - scipy
+    - tensorboard>=2.5.0
+    - cython==0.29.36
+    - pydantic==1.10.13
